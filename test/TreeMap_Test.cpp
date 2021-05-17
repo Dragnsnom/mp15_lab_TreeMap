@@ -1,4 +1,4 @@
-#include "TTreeMap.cpp"
+#include "TTreeMap.h"
 #include <gtest.h>
 
 using namespace std;

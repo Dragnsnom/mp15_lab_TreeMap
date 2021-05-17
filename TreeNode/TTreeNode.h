@@ -1,7 +1,7 @@
 #ifndef TREETABLELIB_TTREENODE_H
 #define TREETABLELIB_TTREENODE_H
 
-#include "TNode.cpp"
+#include "TNode.h"
 #include "TTreeMapIter.h"
 
 template <class TK, class TV>
@@ -30,4 +30,6 @@ TTreeNode<TK, TV>::TTreeNode(const TTreeNode &p):TNode<TK, TV>::TNode(p) {
     this->l = nullptr;
     this->r = nullptr;
 }
+
+
 #endif 
