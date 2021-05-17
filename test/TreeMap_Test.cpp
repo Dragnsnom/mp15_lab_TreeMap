@@ -30,8 +30,7 @@ TEST(TTreeMap, can_delete_item)
     TTreeMap<string, int> a;
     a.Add("hello", 444);
     a.Add("world", 555);
-    a.Add("rainy", 34);
-    a.Add("day", 11);
+    a.Add("rainy", 3);
     a.Delete("world");
     ASSERT_ANY_THROW(a.Find("world"));
 }
