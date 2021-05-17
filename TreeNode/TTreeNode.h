@@ -1,7 +1,7 @@
 #ifndef TREETABLELIB_TTREENODE_H
 #define TREETABLELIB_TTREENODE_H
 
-#include "TNode.h"
+#include "TNode.cpp"
 #include "TTreeMapIter.h"
 
 template <class TK, class TV>
